@@ -1,0 +1,30 @@
+{
+  "name": "blank-executor",
+  "version": "0.0.1",
+  "description": "transform javascript code to zero-width space and execute it",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarol/blank.git"
+  },
+  "keywords": [
+    "zero-width",
+    "space"
+  ],
+  "author": "tarol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarol/blank/issues"
+  },
+  "homepage": "https://github.com/tarol/blank#readme",
+  "dependencies": {
+    "copy-paste": "^1.3.0"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
