@@ -1,6 +1,6 @@
 {
   "name": "blank-executor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "transform javascript code to zero-width space and execute it",
   "main": "lib/index.js",
   "scripts": {
